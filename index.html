@@ -1,22 +1,17 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>My page title</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" 
-rel="stylesheet" type="text/css">
-    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of 
-Internet Explorer-->
-    <!--[if lt IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-    <![endif]-->
-  </head>
-  <!-- I included the body element below which is not part of the html version or the head to make
-    make sure you include it above your HTML code -->
-  <body>
-  <p>Lane Test Page</p>
+<form action="survey.php" method="post" id="collegsurvey">
 
-<h1> Writing and Context</h1>
-    I greatly enjoy <strong>writing</strong> and the <strong>meaning/context</strong> of words. I feel that any time spent putting creative thoughts to paper is worthwhile. I am taking 'The Study of Words' in addition to this class. My favorite author is
-<a href="https://www.cormacmccarthy.com"/>Cormac McCarthy</a>.</p> <img src="https://peakvisor.com/img/news/southern-rocky-mountains.jpg" alt="View of the Rocky Mountains">
- </body>
-</html>
+<p>Fields are required if not otherwise noted.</p>
+
+<p>What year of college are you in?</p>
+<div style="float:left; width:40%;">
+<p class="input"><input type="radio" name="cyear" id="fr" value="1"><label for="fr">Freshman</label></p>
+<p class="input"><input type="radio" name="cyear" id="so" value="2"> <span>Sophmore</span></p>
+<p class="input"><input type="radio" name="cyear" id="jn" value="3"> <span>Junior</span></p>
+
+</div>
+<div style="float:left; width:40%;">
+<p class="input"><input type="radio" name="cyear" id="sn" value="4"> <span>Senior</span></p>
+<p class="input"><input type="radio" name="cyear" id="sn" value="4"> <span>Graduate Student</span></p>
+<p class="input"><input type="radio" name="cyear" id="sn" value="4"> <span>Post Doc</span></p>
+
+</div>
